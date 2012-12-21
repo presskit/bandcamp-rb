@@ -104,6 +104,8 @@ module Bandcamp
       @about         = track['about']
       @album_id      = track['album_id']
       @credits       = track['credits']
+      @small_art_url = album['small_art_url']
+      @large_art_url = album['large_art_url']
       @streaming_url = track['streaming_url']
       @number        = track['number']
       @title         = track['title']
